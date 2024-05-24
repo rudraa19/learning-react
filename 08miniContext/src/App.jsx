@@ -9,8 +9,12 @@ function App() {
 
   return (
     <UserContextProvider>
-      <h1>React with Chai and share is important</h1>
+      <h1>React with Chai</h1>
+      <h3><a href="https://github.com/rudraa19" style={{color: 'white'}}>My Github</a></h3>
+      <hr /> 
+      <br />
       <Login />
+      <br />
       <Profile />
     </UserContextProvider>
   )
